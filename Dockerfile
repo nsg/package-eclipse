@@ -1,8 +1,8 @@
 FROM nsgb/package-base-deb
 
-ENV BIN_URL http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/downloads/release/mars/1/eclipse-java-mars-1-linux-gtk-x86_64.tar.gz
-ENV VERSION 4.5.1
-ENV ITERATION 1
+ARG BIN_URL
+ARG VERSION
+ARG ITERATION
 
 RUN download \
 	-c $BIN_URL \
