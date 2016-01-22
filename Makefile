@@ -1,7 +1,7 @@
 IMAGE = eclipse
 NAME = eclipse
 VERSION = 1.5.1
-ITERATION = 1
+ITERATION = 2
 BIN_URL = "http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/downloads/release/mars/1/eclipse-java-mars-1-linux-gtk-x86_64.tar.gz"
 
 build:
