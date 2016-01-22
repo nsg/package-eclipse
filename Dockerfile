@@ -19,5 +19,5 @@ RUN fpm \
 	-v $VERSION \
 	--iteration $ITERATION \
 	-n eclipse \
-	/opt/eclipse
+	/opt/eclipse \
 	/usr/share/applications/eclipse.desktop
