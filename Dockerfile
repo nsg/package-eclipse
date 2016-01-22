@@ -12,6 +12,8 @@ RUN download \
 
 ADD eclipse.desktop /usr/share/applications/eclipse.desktop
 RUN cp /opt/eclipse/icon.xpm /usr/share/pixmaps/eclipse.xpm
+RUN rm /opt/eclipse/eclipse.ini
+ADD eclipse.ini /opt/eclipse/eclipse.ini
 
 RUN fpm \
 	-s dir \
