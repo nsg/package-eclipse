@@ -20,4 +20,5 @@ RUN fpm \
 	--iteration $ITERATION \
 	-n eclipse \
 	/opt/eclipse \
-	/usr/share/applications/eclipse.desktop
+	/usr/share/applications/eclipse.desktop \
+	/usr/share/pixmaps/eclipse.xpm
